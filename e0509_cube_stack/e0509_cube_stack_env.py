@@ -31,7 +31,7 @@ import os
 # E0509 로봇 설정
 ##############################################################################
 
-E0509_USD_PATH = os.path.expanduser("~/IsaacLab/source/isaaclab_assets/data/Robots/Doosan/E0509_rl_basic.usd")
+E0509_USD_PATH = os.path.expanduser("~/IsaacLab/source/my_assets/some_one_else.usd")
 
 E0509_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
