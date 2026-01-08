@@ -54,8 +54,7 @@ self.hand_link_idx = self._robot.find_bodies("link_6")[0][0]
 
 ```bash
 # 1. 폴더 복사
-cp -r e0509_cube_stack ~/IsaacLab/source/isaaclab_tasks/isaaclab_tasks/direct/
-
+cp -r /workspace/isaaclab/source/team_3/IsaacLab_E0509_Cube_Stack/e0509_cube_stack /workspace/isaaclab/source/isaaclab_tasks/isaaclab_tasks/direct/
 # 2. USD 파일 복사
 cp E0509_rl_basic.usd ~/IsaacLab/source/isaaclab_assets/data/Robots/Doosan/
 
